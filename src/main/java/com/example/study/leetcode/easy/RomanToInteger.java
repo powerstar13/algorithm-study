@@ -1,4 +1,4 @@
-package com.example.study.leetcode.math;
+package com.example.study.leetcode.easy;
 
 import org.springframework.stereotype.Component;
 
