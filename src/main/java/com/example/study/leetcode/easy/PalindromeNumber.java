@@ -9,7 +9,7 @@ import java.util.List;
  * https://leetcode.com/problems/palindrome-number/description/
  */
 @Component
-public class PalindromeNumber {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         String numStr = Integer.toString(x);
         StringBuilder reversedStr = new StringBuilder(numStr).reverse();

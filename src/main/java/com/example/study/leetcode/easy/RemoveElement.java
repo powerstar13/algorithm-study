@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/remove-element/description/
  */
 @Component
-public class RemoveElement {
+class RemoveElement {
 
     public int removeElement(int[] nums, int val) {
         // 먼저, 배열의 길이를 확인합니다. 배열의 길이가 0인 경우, 제거할 요소가 없으므로 0을 반환합니다.

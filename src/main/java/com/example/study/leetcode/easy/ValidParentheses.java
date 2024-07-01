@@ -8,7 +8,7 @@ import java.util.Stack;
  * https://leetcode.com/problems/valid-parentheses/description/
  */
 @Component
-public class ValidParentheses {
+class ValidParentheses {
     /**
      * 스택을 사용하여 괄호의 유효성을 검사합니다.
      * 	1.	문자열 s의 각 문자를 순회합니다.

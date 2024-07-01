@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
  */
 @Component
-public class RemoveDuplicatesFromSortedArray {
+class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
         // 먼저, 배열의 길이를 확인합니다. 배열의 길이가 0 또는 1인 경우, 중복 요소가 없으므로 배열의 길이를 그대로 반환합니다.

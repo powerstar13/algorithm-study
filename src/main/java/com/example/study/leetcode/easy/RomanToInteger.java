@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/roman-to-integer/description/
  */
 @Component
-public class RomanToInteger {
+class RomanToInteger {
     public int romanToInt(String s) {
         int result = 0;
 

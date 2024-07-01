@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/longest-common-prefix/
  */
 @Component
-public class LongestCommonPrefix {
+class LongestCommonPrefix {
     /**
      * 각 문자열에 대해 공통 접두사를 찾는 동안 반복적으로 접두사를 줄여나갑니다.
      * 만약 공통 접두사가 없다면 빈 문자열을 반환합니다.

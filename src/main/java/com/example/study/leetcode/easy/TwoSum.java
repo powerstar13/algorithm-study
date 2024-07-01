@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/two-sum/description/
  */
 @Component
-public class TwoSum {
+class TwoSum {
     public int[] solution(int[] nums, int target) {
         int[] result = new int[2];
         for (int i = 0; i < nums.length - 1; i++) {

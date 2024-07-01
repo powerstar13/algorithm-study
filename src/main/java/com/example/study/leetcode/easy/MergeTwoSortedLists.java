@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/merge-two-sorted-lists/description/
  */
 @Component
-public class MergeTwoSortedLists {
+class MergeTwoSortedLists {
     /**
      * 1. 두 리스트 중 하나가 비어있는지 확인합니다. 만약 하나라도 비어있다면, 비어있지 않은 리스트를 반환합니다. 둘 다 비어있다면, null을 반환합니다.
      * 2. 두 리스트의 헤드를 비교하여 더 작은 값을 가진 노드를 선택합니다. 이 노드를 결과 리스트의 헤드로 설정합니다.

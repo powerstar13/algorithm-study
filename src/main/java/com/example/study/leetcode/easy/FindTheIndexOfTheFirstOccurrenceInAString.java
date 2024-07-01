@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
  */
 @Component
-public class FindTheIndexOfTheFirstOccurrenceInAString {
+class FindTheIndexOfTheFirstOccurrenceInAString {
     /**
      * 두 개의 문자열 needle과 haystack이 주어집니다.
      * haystack에서 needle의 첫 번째 발생 인덱스를 반환하세요.
