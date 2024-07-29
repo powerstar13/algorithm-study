@@ -27,4 +27,9 @@ class ValidParenthesesTest {
     void example4() {
         assertTrue(validParentheses.isValid("{[]}"));
     }
+
+    @Test
+    void example18() {
+        assertFalse(validParentheses.isValid("(){}}{"));
+    }
 }
